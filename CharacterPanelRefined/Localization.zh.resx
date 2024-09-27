@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Panel_Crit_Chance" xml:space="preserve">
+    <value>暴击率</value>
+  </data>
+  <data name="Panel_Crit_Damage" xml:space="preserve">
+    <value>暴击伤害</value>
+  </data>
+  <data name="Panel_Damage_Increase" xml:space="preserve">
+    <value>伤害加成</value>
+  </data>
+  <data name="Panel_Damage_per_100_Potency" xml:space="preserve">
+    <value>预期伤害/100威力</value>
+  </data>
+  <data name="Panel_Heal_per_100_Potency" xml:space="preserve">
+    <value>预期治疗/100威力</value>
+  </data>
+  <data name="Panel_Damage_and_Mitigation" xml:space="preserve">
+    <value>伤害/减伤加成</value>
+  </data>
+  <data name="Panel_Direct_Hit_Chance" xml:space="preserve">
+    <value>直击率</value>
+  </data>
+  <data name="Panel_Fire_IV_GCD" xml:space="preserve">
+    <value>炽炎咏唱时间</value>
+  </data>
+  <data name="Panel_RubyRite_GCD" xml:space="preserve">
+    <value>红宝石之仪复唱时间</value>
+  </data>
+  <data name="Panel_GCD" xml:space="preserve">
+    <value>复唱时间</value>
+  </data>
+  <data name="Panel_Magic_Mitigation" xml:space="preserve">
+    <value>魔法减免</value>
+  </data>
+  <data name="Panel_Mana_per_Tick" xml:space="preserve">
+    <value>每跳回蓝</value>
+  </data>
+  <data name="Panel_Physical_Mitigation" xml:space="preserve">
+    <value>物理减免</value>
+  </data>
+  <data name="Panel_Skill_Speed_Increase" xml:space="preserve">
+    <value>速度加成</value>
+  </data>
+  <data name="Panel_Speed_Properties" xml:space="preserve">
+    <value>速度特性</value>
+  </data>
+  <data name="Panel_Item_level_Sync" xml:space="preserve">
+    <value>物品品级同步</value>
+  </data>
+  <data name="Tooltips_Crit_Tooltip" xml:space="preserve">
+    <value>{@Title}暴击{@Clear} 影响你的攻击和治疗的暴击率，以及暴击时造成的伤害效果和恢复效果.
+
+每{PointsPerTier}点，暴击率和暴击伤害增加0.1%.</value>
+  </data>
+  <data name="Tooltips_Determination_Tooltip" xml:space="preserve">
+    <value>{@Title}信念{@Clear} 增加攻击造成的伤害以及治疗技能恢复的生命值.
+
+每{PointsPerTier}点，伤害和恢复效果增加0.1%.</value>
+  </data>
+  <data name="Tooltips_Direct_Hit_Tooltip" xml:space="preserve">
+    <value>{@Title}直击{@Clear} 影响你的直击率.
+直击时会使伤害增加25%.
+
+每{PointsPerTier}点，直击率增加0.1%.</value>
+  </data>
+  <data name="Tooltips_Skill_Spell_Speed_Tooltip" xml:space="preserve">
+    <value>{@Title}技能速度/咏唱速度{@Clear} 缩短战技/魔法的咏唱时间和复唱时间，并增加持续伤害和持续恢复效果.</value>
+  </data>
+  <data name="Tooltips_Skill_Spell_Speed_GCD" xml:space="preserve">
+    <value>每{PointsPerTier}点，复唱时间为{GCD}秒的战技/魔法，其复唱时间减少0.01秒.</value>
+  </data>
+  <data name="Tooltips_Skill_Spell_Speed_With_Mod" xml:space="preserve">
+    <value>{@Highlight}这些预期数值已将{@Red}{ModName}{@Clear}的影响计算在内. 
+按住Ctrl键查看不受{@Red}{ModName}{@Clear}影响的数值.{@Clear}</value>
+  </data>
+  <data name="Tooltips_Skill_Spell_Speed_Without_Mod" xml:space="preserve">
+    <value>{@Highlight}按住Ctrl键查看计算{@Red}{ModName}{@Clear}后的数值.{@Clear}</value>
+  </data>
+  <data name="Tooltips_Skill_Spell_Speed_DoT_Increase" xml:space="preserve">
+    <value>每{PointsPerTier}点，持续伤害和持续恢复效果增加0.1%.</value>
+  </data>
+  <data name="Tooltips_Next_Tier" xml:space="preserve">
+    <value>要到达下一个阈值，你还需要{@Highlight}{NextTier}{@Clear}{Points}.</value>
+  </data>
+  <data name="Tooltips_Wasting" xml:space="preserve">
+    <value>你目前溢出了{@Wasting}{Wasting}{@Clear}{Points}属性.</value>
+  </data>
+  <data name="Tooltips_Wasting_Points_Singular" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="Tooltips_Wasting_Points_Plural" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="Tooltips_Expected_Damage" xml:space="preserve">
+    <value>100威力的技能造成的预期伤害，计算已考虑了暴击和直击，以及职业特性(例如技能效果提高).
+
+普通攻击会造成{@Highlight}{NormalValue}{@Clear}伤害.
+暴击会造成{@Highlight}{CritValue}{@Clear}伤害.
+
+实际造成的伤害会有±5%的浮动.</value>
+  </data>
+  <data name="Tooltips_Expected_Heal" xml:space="preserve">
+    <value>100威力的治疗技能造成的预期恢复效果，计算已考虑了暴击和职业特性(例如技能效果提高).
+
+正常治疗将恢复{@Highlight}{NormalValue}{@Clear}生命值.
+暴击治疗将恢复{@Highlight}{CritValue}{@Clear}生命值.
+
+实际造成的恢复效果会有±3%的浮动.</value>
+  </data>
+  <data name="Tooltips_Tenacity_Tooltip" xml:space="preserve">
+    <value>{@Title}坚韧{@Clear} 增加造成的伤害量和治疗量，同时也减少自身所受的伤害量.
+
+每{PointsPerTier}点，伤害和恢复效果增加0.1%，减少0.1%受到的伤害。</value>
+  </data>
+  <data name="Tooltips_Piety_Tooltip" xml:space="preserve">
+    <value>{@Title}信仰{@Clear} 增加每跳回蓝量(每3秒).
+默认情况下，每跳会恢复200蓝量.
+
+每{PointsPerTier}点，每跳额外获得1点蓝量.</value>
+  </data>
+  <data name="Tooltips_Defense_Tooltip" xml:space="preserve">
+    <value>{@Title}物理防御力{@Clear} 每{PointsPerTier}点，减少1%受到的物理伤害.</value>
+  </data>
+  <data name="Tooltips_Magic_Defense_Tooltip" xml:space="preserve">
+    <value>{@Title}魔法防御力{@Clear} 每{PointsPerTier}点，减少1%受到的魔法伤害.</value>
+  </data>
+  <data name="Tooltips_Vitality_Tooltip" xml:space="preserve">
+    <value>{@Title}耐力{@Clear} 每1点，增加{HpPerPoint}点最大生命值.
+作为{Job}你拥有{BaseHp}的基础生命值.</value>
+  </data>
+  <data name="Tooltips_Main_Stat_Tooltip" xml:space="preserve">
+    <value>{@Title}主属性{@Clear} 增加你的技能造成的伤害和治疗量.
+每增加10%主属性，伤害和治疗量增加10%.
+
+召唤师的医术是唯一的例外，它受到精神加成而不是智力.</value>
+  </data>
+  <data name="Config_Character_Panel_Refined_Config" xml:space="preserve">
+    <value>Character Panel Refined Config</value>
+  </data>
+  <data name="Config_Override_default_tooltips" xml:space="preserve">
+    <value>用更详细的属性提示替换角色面板的内置属性提示</value>
+  </data>
+  <data name="Config_Use_Game_Language_if_available" xml:space="preserve">
+    <value>使用游戏语言</value>
+  </data>
+  <data name="Config_Override_default_tooltips_tooltip" xml:space="preserve">
+    <value>覆盖所有属性的默认属性提示.</value>
+  </data>
+  <data name="Config_Window_Use_Game_Language_Tooltip" xml:space="preserve">
+    <value>如果可用，使该插件使用内置游戏语言.
+目前可选:英语，德语，法语，简体中文</value>
+  </data>
+  <data name="Config_Show_average_damage" xml:space="preserve">
+    <value>显示预期伤害</value>
+  </data>
+  <data name="Config_Show_average_healing" xml:space="preserve">
+    <value>显示预期治疗</value>
+  </data>
+  <data name="Config_Show_crit_damage_increase" xml:space="preserve">
+    <value>显示暴击伤害</value>
+  </data>
+  <data name="Config_Show_direct_hit_damage_increase" xml:space="preserve">
+    <value>显示直击伤害</value>
+  </data>
+  <data name="Config_Help_Apply_Changes" xml:space="preserve">
+    <value>要应用任何配置更改，你需要重新打开角色面板.</value>
+  </data>
+  <data name="Panel_excluding_Consumables" xml:space="preserve">
+    <value>不包含食物/药品的数值</value>
+  </data>
+  <data name="Panel_CP" xml:space="preserve">
+    <value>制作力</value>
+  </data>
+  <data name="Panel_GP" xml:space="preserve">
+    <value>采集力</value>
+  </data>
+  <data name="Config_Show_stats_without_consumables" xml:space="preserve">
+    <value>显示不包含食物/药品的生产采集职业状态</value>
+  </data>
+  <data name="Buff_LeyLines" xml:space="preserve">
+    <value>黑魔纹</value>
+  </data>
+  <data name="Buff_LeyLines_Abbrev" xml:space="preserve">
+    <value>黑魔纹</value>
+  </data>
+  <data name="Buff_GreasedLightning" xml:space="preserve">
+    <value>疾风迅雷</value>
+  </data>
+  <data name="Buff_GreasedLightning_Abbrev" xml:space="preserve">
+    <value>疾风迅雷</value>
+  </data>
+  <data name="Buff_Shifu" xml:space="preserve">
+    <value>风花</value>
+  </data>
+  <data name="Buff_PresenceOfMind" xml:space="preserve">
+    <value>神速咏唱</value>
+  </data>
+  <data name="Buff_PresenceOfMind_Abbrev" xml:space="preserve">
+    <value>神速咏唱</value>
+  </data>
+  <data name="Buff_Huton" xml:space="preserve">
+    <value>风遁之术</value>
+  </data>
+  <data name="Buff_ArmysPaeon" xml:space="preserve">
+    <value>军神的赞美歌</value>
+  </data>
+  <data name="Buff_ArmysPaeon_Abbrev" xml:space="preserve">
+    <value>军神歌</value>
+  </data>
+  <data name="Buff_Astrodyne" xml:space="preserve">
+    <value>星力</value>
+  </data>
+  <data name="Buff_Astrodyne_Abbrev" xml:space="preserve">
+    <value>星力</value>
+  </data>
+  <data name="Config_Show_item_level_information" xml:space="preserve">
+    <value>显示物品品级</value>
+  </data>
+  <data name="Config_Show_synced_stats" xml:space="preserve">
+    <value>在装备面板中显示同步后的物品品级</value>
+  </data>
+  <data name="Tooltips_Item_Level_Sync" xml:space="preserve">
+    <value>{@Title}物品品级同步{@Clear} 当你进入一个 {@Red}低于你角色等级的任务{@Clear} 或者 {@Red}强制等级同步的任务{@Clear}, 又或者你在任务搜索器中选择了 {@Red}最低品级{@Clear} 时, 该任务会使你 {@Red} 物品品级同步{@Clear}.
+
+任何物品品级高于限制将失去所有的魔晶石镶嵌属性，其属性将被降低为当前品级同步下物品最大品级的最高属性.</value>
+  </data>
+  <data name="Tooltip_Show_synced_stats" xml:space="preserve">
+    <value>当物品品级同步时，在装备面板提示中显示同步状态.
+可按Ctrl键禁用.
+(由于游戏的四舍五入方法，这些可能会偏离1点)</value>
+  </data>
+  <data name="Buff_Hyperphantasia" xml:space="preserve">
+    <value>绘灵幻景</value>
+  </data>
+  <data name="Buff_Hyperphantasia_Abbrev" xml:space="preserve">
+    <value>绘灵幻景</value>
+  </data>
+  <data name="Buff_Swiftscaled" xml:space="preserve">
+    <value>疾速</value>
+  </data>
+  <data name="Buff_Swiftscaled_Abbrev" xml:space="preserve">
+    <value>疾速</value>
+  </data>
+  <data name="Panel_BlizzardInCyan_GCD" xml:space="preserve">
+    <value>冰结之蓝青复唱时间</value>
+  </data>
+</root>
